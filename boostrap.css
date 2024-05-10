@@ -239,6 +239,7 @@ nav ul {
   -moz-column-gap: 15px;
        column-gap: 15px;
   display: flex;
+  margin-bottom: 25px;
 }
 
 .text {
