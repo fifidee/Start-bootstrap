@@ -347,12 +347,17 @@ nav ul {
 .cont .location {
   position: relative;
   left: 7px;
+  margin: bottom 10px;
 }
 
 textarea.form-control {
   padding: 50px;
   padding-left: 28px;
   font-size: 20px;
+}
+
+.loc {
+  margin-bottom: 32px;
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 575px) {
