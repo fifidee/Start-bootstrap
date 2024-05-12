@@ -235,7 +235,6 @@ nav ul {
 }
 
 .circ {
-  text-align: center;
   -moz-column-gap: 15px;
        column-gap: 15px;
   display: flex;
@@ -251,6 +250,7 @@ nav ul {
   width: 100%;
   color: white;
   font-family: Montserrat;
+  margin-bottom: 0px;
 }
 
 .row2 {
@@ -283,7 +283,9 @@ nav ul {
   color: white;
   background-color: #1bbc9c;
   margin-top: 20px;
-  padding: 10px;
+  padding: 12px;
+  border: none;
+  width: 70px;
 }
 .form .icon {
   display: flex;
