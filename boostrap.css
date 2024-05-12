@@ -10,8 +10,9 @@
 }
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #2d3e50;
   position: relative;
+  height: 35px;
 }
 
 .topnav #myLinks {
@@ -24,6 +25,8 @@
   padding: 18px 16px;
   text-decoration: none;
   font-size: 17px;
+  display: flex;
+  align-items: center;
 }
 
 ul {
@@ -37,17 +40,19 @@ a {
 
 .topnav a.icon {
   float: right;
-  padding-top: 23px;
 }
 
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+  display: flex;
+  align-items: center;
 }
 
 .active {
   background-color: #04AA6D;
   color: white;
+  height: 35px;
 }
 
 nav {
@@ -425,6 +430,15 @@ textarea.form-control {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .logo {
     font-size: 20px;
+  }
+  .topnav {
+    height: 50px;
+  }
+  .active {
+    height: 50px;
+  }
+  .loc {
+    margin-bottom: 6px;
   }
   .circle {
     width: 25px;
