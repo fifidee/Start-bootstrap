@@ -40,6 +40,7 @@ a {
 
 .topnav a.icon {
   float: right;
+  height: 10px;
 }
 
 .topnav a:hover {
@@ -91,7 +92,7 @@ nav ul {
 .content {
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -138,7 +139,7 @@ nav ul {
 .Portfolio .icon {
   display: flex;
   justify-content: center;
-  margin-bottom: 25px;
+  margin-bottom: 12px;
 }
 .Portfolio .icon .line2 {
   color: black;
@@ -210,7 +211,6 @@ nav ul {
 }
 
 .cont {
-  display: flex;
   -moz-column-gap: 20px;
        column-gap: 20px;
   background-color: #2d3e50;
@@ -222,6 +222,11 @@ nav ul {
 
 .row {
   display: flex;
+  text-align: center;
+}
+
+.shift {
+  text-align: start;
 }
 
 .circle {
@@ -258,6 +263,14 @@ nav ul {
   margin-bottom: 0px;
 }
 
+.marg {
+  margin-right: 50px;
+}
+
+.adjust {
+  text-align: start;
+}
+
 .row2 {
   -moz-column-gap: 30px;
        column-gap: 30px;
@@ -272,6 +285,8 @@ nav ul {
   padding-top: 20px;
   padding-bottom: 40px;
   margin: 30px;
+  display: flex;
+  justify-content: center;
 }
 .form h2 {
   align-items: center;
@@ -279,10 +294,11 @@ nav ul {
   font-family: Montserrat;
 }
 .form .form-control {
-  padding: 25px;
+  padding: 20px;
   border-left: none;
   border-right: none;
   border-top: none;
+  width: 700px;
 }
 .form .btn-primary {
   color: white;
@@ -291,6 +307,7 @@ nav ul {
   padding: 12px;
   border: none;
   width: 70px;
+  display: flex;
 }
 .form .icon {
   display: flex;
@@ -347,8 +364,9 @@ nav ul {
   margin-bottom: 14px;
 }
 
-.form-control {
-  padding: 25px;
+.contact .row {
+  display: flex;
+  justify-content: center;
 }
 
 .cont .location {
@@ -358,8 +376,6 @@ nav ul {
 }
 
 textarea.form-control {
-  padding: 50px;
-  padding-left: 28px;
   font-size: 20px;
 }
 
@@ -372,6 +388,10 @@ textarea.form-control {
     margin-left: 10px;
     font-size: 19px;
   }
+  .form .form-control {
+    width: 200px;
+    padding: 5px;
+  }
   nav ul {
     -moz-column-gap: 15px;
          column-gap: 15px;
@@ -379,6 +399,22 @@ textarea.form-control {
   }
   .content {
     height: 50vh;
+  }
+  textarea.form-control {
+    padding: 10px;
+  }
+  .marg {
+    text-align: center;
+    margin-right: 0px;
+  }
+  .shift {
+    text-align: center;
+  }
+  .adjust {
+    text-align: center;
+  }
+  .loc {
+    margin-bottom: 15px;
   }
   .content .img {
     width: 120px;

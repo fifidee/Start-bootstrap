@@ -39,8 +39,9 @@ a{ text-decoration: none;
 .topnav a.icon {
   float: right;
   // padding-top:  23px;
- 
+  height: 10px;
 }
+
 
 .topnav a:hover {
   background-color: #ddd;
@@ -99,7 +100,7 @@ nav ul {
 
 .content{    background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,7 +153,7 @@ nav ul {
  .icon {
         display: flex;
         justify-content: center;
-        margin-bottom: 25px;
+        margin-bottom: 12px;
         .line2{
           color: black;
           width: 60px;
@@ -231,7 +232,8 @@ nav ul {
    
     color: white;
 }
-.cont{ display: flex;  
+.cont{
+  //  display: flex;  
      column-gap: 20px;
      background-color: #2d3e50;
     color: white;
@@ -241,7 +243,11 @@ nav ul {
 }
 .row{
     display: flex;
+    text-align: center;
    
+}
+.shift{
+  text-align: start;
 }
 
 .circle {
@@ -283,6 +289,12 @@ nav ul {
      
     
 }
+.marg{
+margin-right: 50px;  
+}
+.adjust{
+  text-align: start;
+}
 
 .row2{ column-gap: 30px;
 
@@ -298,18 +310,23 @@ background-position: center;
 padding-top: 20px;
 padding-bottom: 40px;
 margin: 30px;
+display: flex;
+justify-content: center;
+
 h2{  align-items: center;
 text-align: center;
 font-family: Montserrat;
 
 
 
+
 }
 .form-control {
-  padding: 25px;
+  padding: 20px;
   border-left: none;
   border-right: none;
   border-top: none;
+  width: 700px;
 }
 .btn-primary {
     color:white;
@@ -318,6 +335,7 @@ font-family: Montserrat;
     padding: 12px;
     border: none;
     width: 70px;
+    display: flex;
     
 }
 
@@ -376,9 +394,10 @@ font-family: Montserrat;
   font-weight: 900;
   margin-bottom: 14px;
 }
-.form-control {
-padding: 25px;
 
+.contact .row {
+display: flex;
+justify-content: center;
 }
 .cont{
   .location{
@@ -391,13 +410,13 @@ padding: 25px;
 
 }
 textarea.form-control {
-  padding: 50px;
-  padding-left: 28px;
   font-size: 20px;
 }
 .loc{
   margin-bottom: 32px;
+
 }
+
 
 
 
@@ -410,6 +429,11 @@ textarea.form-control {
     margin-left: 10px;
     font-size: 19px;
 }
+.form .form-control {
+ 
+  width: 200px;
+  padding: 5px;
+}
 
 nav ul {
     column-gap: 15px;
@@ -418,6 +442,22 @@ nav ul {
 .content {
  
   height: 50vh;
+}
+textarea.form-control {
+  padding: 10px;
+}
+.marg {
+ text-align: center;
+ margin-right: 0px;
+}
+.shift {
+  text-align: center;
+}
+.adjust {
+    text-align: center;
+}
+.loc {
+  margin-bottom: 15px;
 }
 .content .img {
   width: 120px;
