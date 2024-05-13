@@ -426,6 +426,15 @@ textarea.form-control {
   nav {
     display: none;
   }
+  .Portfolio .icon {
+    margin-bottom: 10px;
+  }
+  .line1 {
+    width: 60px;
+  }
+  .form .icon {
+    margin-bottom: 0px;
+  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .logo {
